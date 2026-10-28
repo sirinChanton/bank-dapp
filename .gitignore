@@ -1,0 +1,25 @@
+# Secrets (never commit private keys / seed phrases)
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+
+# Dependencies
+node_modules/
+
+# Remix / Solidity build output
+artifacts/
+cache/
+.deps/
+.states/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
